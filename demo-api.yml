@@ -10,4 +10,5 @@ management:
     web:
       exposure:
         include: "*"
+ message: "this is message from demo config server"
   
