@@ -3,10 +3,11 @@ spring:
     admin:
       client:
         url: http://localhost:1111
+
 management:
   endpoints:
     web:
       exposure:
         include: "*"
- message: "this is message from demo config server"
-  
+
+message: "This is message from demo config server"
